@@ -29,14 +29,19 @@ Uncovered patterns and correlations within the data.
 Provided insights into how the availability of bikes may be influenced by the surrounding points of interest.
 
 ## Results
-Model Performance:
-Despite thorough exploration and analysis, the predictive model did not yield a significant correlation between the number of bikes in use and the surrounding Points of Interest. The R-squared value, a metric representing the goodness of fit, was found to be very low.
+Model Performance: Despite thorough exploration and analysis, the predictive model did not yield a significant correlation between the number of bikes in use and the surrounding Points of Interest. The R-squared value, a metric representing the goodness of fit, was found to be very low.
 
 ## Challenges 
-(discuss challenges you faced in the project)
+Data Context: The data was collected specifically for a weekend during the winter season, which might impact the overall biking activity and the correlation with Points of Interest.
+
+Dataset Size: The dataset comprised only 248 lat long pairs, which could limit the model's ability to capture nuanced patterns. A larger dataset might provide more robust insights.
+
+Seasonal Variations: Seasonal variations, especially during winter, might influence both bike usage and the presence of people at Points of Interest.
 
 ## Future Goals
-(what would you do if you had more time?)
+Extended Data Collection: Consider collecting data over an extended period, including different days of the week and seasons, to capture a more comprehensive picture. Expanding the dataset by collecting more samples could enhance the model's ability to generalize and identify patterns.
+
+Additional Features: Incorporating additional features or external variables (e.g., weather conditions, events) may contribute to a more nuanced understanding.
 
 ## Project Structure:
 /data:
