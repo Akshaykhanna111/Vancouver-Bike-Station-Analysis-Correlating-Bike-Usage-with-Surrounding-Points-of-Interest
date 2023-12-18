@@ -55,5 +55,7 @@ Holds visualizations and charts generated during the analysis.
 
 ## Dependencies:
 Python 3.x
+
 Jupyter Notebooks
+
 Required Python libraries (specified in the project documentation)
